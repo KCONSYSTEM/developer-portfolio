@@ -28,6 +28,7 @@ module.exports = {
       },
     ],
   },
+  // For Dev.to users
   // images: {
   //   remotePatterns: [
   // {

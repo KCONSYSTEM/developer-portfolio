@@ -15,6 +15,11 @@ function Footer() {
             © Developer Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/mohammad--fahad/" className="text-[#16f2b3]">Moyhammad Fahad</Link>
           </p>
           <div className="flex items-center gap-5">
+            <Link href="/privacy-policy" className="text-sm hover:text-[#16f2b3]" >Privacy Policy</Link>
+            <Link href="/disclaimer" className="text-sm hover:text-[#16f2b3]">Disclaimer</Link>
+          </div>
+
+          <div className="flex items-center gap-5">
             <Link
               target="_blank"
               href="https://github.com/mohammad-fahad/developer-portfolio"
