@@ -1,7 +1,11 @@
 export const personalData = {
   name: "Mohammad Fahad",
   profile: "/mohammad-fahd.jpg",
-  designation: "Frontend Developer | React, Next.js & TypeScript",
+  designation: "Frontend Developer specializing in Next.js, React.js & TypeScript",
+  subheading: `I help businesses build fast, scalable, and 
+user-friendly web applications. 
+Open to new opportunities worldwide 🌍,
+Let’s build something impactful together 🚀`,
   description:
     "I am a Frontend Developer with 4+ years of experience building high-performance, scalable web applications. Specialized in React, Next.js, and TypeScript with a strong focus on clean architecture, responsive design, and seamless user experience. Passionate about writing maintainable code and continuously learning modern web technologies.",
   email: "mail.mohammadfahad@gmail.com",
