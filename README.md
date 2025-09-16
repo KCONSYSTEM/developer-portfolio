@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img height="100" src="https://github.com/mohammad-fahad/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c" alt="github-image">
+    <img height="100" src="https://github.com/mohammad-fahad/developer-portfolio/assets/free-palestine" alt="github-image">
 </p>
 
 ---
