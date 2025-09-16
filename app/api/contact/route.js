@@ -40,28 +40,20 @@ async function sendEmail({ name, email, message }) {
 
 export async function POST(req) {
   try {
-    const payload = await req.json();
-    const { name, email, message: userMessage } = payload;
+    const { name, email, message } = await req.json();
 
-    if (!name || !email || !userMessage) {
-      return NextResponse.json({ success: false, message: "All fields are required." }, { status: 400 });
+    if (!name || !email || !message) {
+      return new Response(JSON.stringify({ success: false, message: "All fields required" }), { status: 400 });
     }
 
-    const emailMessage = `New message from ${name}\nEmail: ${email}\nMessage: ${userMessage}`;
-
-    // Send email
-    const emailSuccess = true; //
-    await sendEmail({ name, email, message: userMessage });
-    // Telegram code removed/commented out since it's blocked
-    // sendTelegramMessage(process.env.TELEGRAM_BOT_TOKEN, process.env.TELEGRAM_CHAT_ID, emailMessage);
-
-    if (!emailSuccess) {
-      return NextResponse.json({ success: false, message: "Failed to send email." }, { status: 500 });
+    const emailSent = await sendEmail({ name, email, message });
+    if (!emailSent) {
+      return new Response(JSON.stringify({ success: false, message: "Failed to send email" }), { status: 500 });
     }
 
-    return NextResponse.json({ success: true, message: "Message sent successfully!" }, { status: 200 });
-  } catch (error) {
-    console.error("API Error:", error.message);
-    return NextResponse.json({ success: false, message: "Server error." }, { status: 500 });
+    return new Response(JSON.stringify({ success: true, message: "Message sent!" }), { status: 200 });
+  } catch (err) {
+    console.error("Contact API error:", err);
+    return new Response(JSON.stringify({ success: false, message: "Server error" }), { status: 500 });
   }
 }
