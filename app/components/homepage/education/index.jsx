@@ -19,6 +19,7 @@ function Education() {
         alt="Hero"
         width={1572}
         height={795}
+        loading="lazy"
         className="absolute top-0 -z-10"
       />
       <div className="flex justify-center -translate-y-[1px]">

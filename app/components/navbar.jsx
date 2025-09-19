@@ -1,5 +1,6 @@
 // @flow strict
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 
 function Navbar() {
@@ -36,7 +37,9 @@ function Navbar() {
             <Link className="block px-4 py-2 no-underline outline-none hover:no-underline" href="/#projects"><div className="text-sm text-white transition-colors duration-300 hover:text-pink-600">PROJECTS</div></Link>
           </li>
         </ul>
+        <ThemeToggle />
       </div>
+
     </nav>
   );
 };

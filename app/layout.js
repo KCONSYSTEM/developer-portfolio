@@ -1,9 +1,7 @@
-
-
 import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import { ThemeProvider } from "next-themes";
 import Footer from "./components/footer";
 import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
@@ -22,7 +20,7 @@ export default function RootLayout({ children }) {
   const gtmId = process.env.NEXT_PUBLIC_GTM;
 
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         {/* Google Tag Manager - Head */}
         {gtmId && (
@@ -39,7 +37,7 @@ export default function RootLayout({ children }) {
           />
         )}
       </head>
-      <body className={inter.className} suppressHydrationWarning>
+      <body className={inter.className}>
         {/* Google Tag Manager (noscript) */}
         {gtmId && (
           <noscript
@@ -48,13 +46,15 @@ export default function RootLayout({ children }) {
             }}
           />
         )}
-        <ToastContainer />
-        <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
-          <Navbar />
-          {children}
-          <ScrollToTop />
-        </main>
-        <Footer />
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <ToastContainer />
+          <main className="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem]">
+            <Navbar />
+            {children}
+            <ScrollToTop />
+          </main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );

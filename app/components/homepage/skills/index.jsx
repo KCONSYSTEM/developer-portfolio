@@ -46,12 +46,13 @@ function Skills() {
                   </div>
                 </div>
                 <div className="flex flex-col items-center justify-center gap-3 p-6">
-                  <div className="h-8 sm:h-10">
+                  <div className="h-8 sm:h-10 md:h-12 lg:h-16">
                     <Image
                       src={skillsImage(skill)?.src}
-                      alt={skill ? skill : "Skill Image"}
-                      width={40}
+                      alt={skill || "Skill Image"}
+                      width={60}
                       height={40}
+                      loading="lazy"
                       className="h-full w-auto rounded-lg"
                     />
                   </div>
